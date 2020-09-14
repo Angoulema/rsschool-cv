@@ -1,6 +1,6 @@
 # Curicculum Vitae
 
-Evgenia **Labokha**
+Evgenia *Labokha*
 -------------------
 
 *eugenia.labokha@yandex.by*
