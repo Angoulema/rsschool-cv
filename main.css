@@ -1,24 +1,32 @@
 body {
 	background: #f0f8ff;
+	position: relative;
+	width: 100%;
 }
 
 header {
-	margin: auto;
+	margin: 0 auto;
 	padding: 1em;
 	background: #fff0f5;
 	max-width: 50%;
-	min-width: 400px;
+	min-width: 320px;
 	text-align: right;
+	border-radius: 10px;
 }
 
 section {
-	background: #e6e6fa;
+	background: #e6f4fa;
 	color: #4b0082;
 	padding: 1em;
-	margin: auto;
+	margin: 0 auto;
 	max-width: 50%;
-	min-width: 400px;
+	min-width: 320px;
+	border-radius: 10px;
 }
+section:nth-child(2n) {
+	background: #f8fae6;
+}
+
 
 hr {
 	width: 80%;
@@ -51,7 +59,8 @@ p {
 
 .photo {
 	width: 300px;
-	max-width: 100%	
+	max-width: 100%;
+	border-radius: 10px;	
 }
 
 a {
